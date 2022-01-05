@@ -393,3 +393,26 @@ EAFP (Easier to Ask for Forgiveness than Permission)
 -> 일단 먼저 빨리 실행하고 문제가 생기면 처리한다.
 
 '''
+
+'''
+SOLID 원칙?
+
+객체 지향 프로그래밍을 잘 활용하기 위한 5개의 원칙이다.
+
+1. 단일 책임 원칙 ( Single Responsibility Principle)
+
+-> 모든 클래스는 단 한 가지의 책임만을 갖고, 클래스 안에 정의되어 있는 모든 기능은 이 하나의 책임을 수행하는데 집중되어 있어야 한다.
+
+어디까지가 한 가지 책임인가?
+-> 상황과 생각에 따라 다르다.
+
+예를 들어 ship이라는 클래스가 있고 내부에 연료, 물자, 선원, 엔진에 대한 메소드가 있으면 너무 복잡해진다.
+이렇게 하나의 클래스가 여러 책임을 담당하는 것을 GOD class 라고 한다.
+
+2. 개방 폐쇄 원칙 ( Open-Closed Principle)
+3. 리스코프 치환 원칙 (Liskov Substitution Principle)
+4. 인터페이스 분리 원칙 ( Interface Segregation Principle)
+5. 의존 관계 역전 원칙 ( Dependency Inversion Principle)
+
+
+'''
